@@ -34,29 +34,36 @@ console.log(daysOfWeek);
 */
 
 // #1.10 Organizing Data with Objects
-const nicoInfo = {
-    name : "Nico",
-    age : 33,
-    gender : "Male",
-    isHandsome : true,
-    favMovies : ["Along the gods", "LOTR", "Oldboy"],
-    favFood : [
-        {
-            name : "Kimchi",
-            fatty : false
-        },
-        {
-            name : "Cheese burger",
-            fatty : true
-        }
-    ]
+// const nicoInfo = {
+//     name : "Nico",
+//     age : 33,
+//     gender : "Male",
+//     isHandsome : true,
+//     favMovies : ["Along the gods", "LOTR", "Oldboy"],
+//     favFood : [
+//         {
+//             name : "Kimchi",
+//             fatty : false
+//         },
+//         {
+//             name : "Cheese burger",
+//             fatty : true
+//         }
+//     ]
 
+// }
+
+// // console.log(nicoInfo.gender);
+
+// // nicoInfo.gender = "Female";
+
+// // console.log(nicoInfo.gender);
+// console.log(nicoInfo);
+// console.log(nicoInfo.favFood[0].name);
+
+// #2.1 Your first JS Function
+function sayHello(name, age) {
+    console.log('Hello!', name, "you have", age, "years of age.");
 }
 
-// console.log(nicoInfo.gender);
-
-// nicoInfo.gender = "Female";
-
-// console.log(nicoInfo.gender);
-console.log(nicoInfo);
-console.log(nicoInfo.favFood[0].name);
+sayHello("Nicolas", 15);
